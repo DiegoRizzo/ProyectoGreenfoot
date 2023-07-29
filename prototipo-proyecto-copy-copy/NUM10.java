@@ -1,19 +1,19 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class TEXTO here.
+ * Write a description of class NUM10 here.
  * 
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class TEXTO extends Actor
+public class NUM10 extends Actor
 {
     /**
-     * Act - do whatever the TEXTO wants to do. This method is called whenever
+     * Act - do whatever the NUM10 wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     public void act()
     {
-        
+        // Add your action code here.
     }
 }

@@ -48,21 +48,21 @@ public class Character extends Actor
         }
         
         Actor incorrecto1;
-        incorrecto1 = getOneObjectAtOffset(0, 0, OPCION1.class);
+        incorrecto1 = getOneObjectAtOffset(0, 0, NUM1.class);
         if (incorrecto1 != null && Greenfoot.isKeyDown("space"))
         {
             Greenfoot.playSound("wrong.mp3");
         }
         
         Actor incorrecto2;
-        incorrecto2 = getOneObjectAtOffset(0, 0, R3.class);
+        incorrecto2 = getOneObjectAtOffset(0, 0, NUM3.class);
         if (incorrecto2 != null && Greenfoot.isKeyDown("space"))
         {
             Greenfoot.playSound("wrong.mp3");
         }
         
         Actor correcto;
-        correcto = getOneObjectAtOffset(0, 0, OPCION2.class);
+        correcto = getOneObjectAtOffset(0, 0, NUM2.class);
         if (correcto != null && Greenfoot.isKeyDown("space"))
         {
             Greenfoot.playSound("correct.mp3");

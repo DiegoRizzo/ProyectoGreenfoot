@@ -1,15 +1,15 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class R3 here.
+ * Write a description of class PREGUNTA3 here.
  * 
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class R3 extends Actor
+public class PREGUNTA3 extends Actor
 {
     /**
-     * Act - do whatever the R3 wants to do. This method is called whenever
+     * Act - do whatever the PREGUNTA3 wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     public void act()
