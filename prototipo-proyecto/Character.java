@@ -15,6 +15,7 @@ public class Character extends Actor
     public void act()
     {
         moveAround();
+        answer();
     }
     
     public void moveAround()
@@ -35,5 +36,37 @@ public class Character extends Actor
         {
             setLocation(getX(), getY()+5);
         }
+    }
+    
+    public void answer()
+    {
+        Actor rendirse;
+        rendirse = getOneObjectAtOffset(0, 0, MERINDO.class);
+        if (rendirse != null && Greenfoot.isKeyDown("space"))
+        {
+            Greenfoot.playSound("wrong.mp3");
+        }
+        
+        Actor incorrecto1;
+        incorrecto1 = getOneObjectAtOffset(0, 0, NUM1.class);
+        if (incorrecto1 != null && Greenfoot.isKeyDown("space"))
+        {
+            Greenfoot.playSound("wrong.mp3");
+        }
+        
+        Actor incorrecto2;
+        incorrecto2 = getOneObjectAtOffset(0, 0, NUM3.class);
+        if (incorrecto2 != null && Greenfoot.isKeyDown("space"))
+        {
+            Greenfoot.playSound("wrong.mp3");
+        }
+        
+        Actor correcto;
+        correcto = getOneObjectAtOffset(0, 0, NUM2.class);
+        if (correcto != null && Greenfoot.isKeyDown("space"))
+        {
+            Greenfoot.playSound("correct.mp3");
+        }
+        
     }
 }
