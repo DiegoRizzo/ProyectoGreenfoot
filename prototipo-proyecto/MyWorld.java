@@ -9,7 +9,7 @@ import greenfoot.GreenfootSound;
  */
 public class MyWorld extends World
 {
-    GreenfootSound myMusic = new GreenfootSound("kgde.mp3");
+    GreenfootSound myMusic = new GreenfootSound("bgm.mp3");
     int nivel = Greenfoot.getRandomNumber(5);
     
     
@@ -93,6 +93,9 @@ public class MyWorld extends World
         
             PREGUNTA5 pregunta5 = new PREGUNTA5();
             addObject(pregunta5,500,70);
+        }
+        if (Greenfoot.isKeyDown("space")) {
+            nivel = Greenfoot.getRandomNumber(5);
         }
     }
     public void act() {
